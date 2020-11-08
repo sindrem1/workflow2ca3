@@ -1,0 +1,397 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #225560;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  font-family: "Montserrat";
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 28px;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+#toggle {
+  display: none;
+}
+.togglearea {
+  background-color: #225560;
+  border-bottom: 1px #225560;
+  color: white;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+.togglearea label {
+  background-color: #225560;
+  height: 45px;
+  width: 50px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.togglearea label span {
+  background-color: white;
+  height: 4px;
+  width: 70%;
+  margin: 2px 0px;
+}
+.slottet {
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: DharmaGothice, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.column1 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 800px;
+  border-radius: 60px;
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+  background-color: #FFF;
+}
+.column2 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 800px;
+  border-radius: 60px;
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+  background-color: #FFF;
+}
+.column3 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 800px;
+  border-radius: 60px;
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+  background-color: #FFF;
+}
+.oslo1 {
+  width: 10%;
+  width: 90%;
+}
+.bike1 {
+  width: 10%;
+  width: 90%;
+}
+.earth {
+  width: 10%;
+  width: 90%;
+}
+.biking1 {
+  width: 70%;
+}
+.difficulity {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.easy {
+  color: #24a581;
+}
+.medium {
+  color: #4b8ed8;
+}
+.challenging {
+  color: #d8363c;
+}
+.map1 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 550px;
+  border-radius: 60px;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+  background-color: #24a581;
+  color: white;
+}
+.map2 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 550px;
+  border-radius: 60px;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+  background-color: #4b8ed8;
+  color: white;
+}
+.map3 {
+  font-family: "Montserrat";
+  float: left;
+  width: 33.33%;
+  height: 550px;
+  border-radius: 60px;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+  background-color: #d8363c;
+  color: white;
+}
+.button {
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #225560;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #4CAF50;
+}
+.button:active {
+  background: #002626;
+}
+article {
+  font-family: "Montserrat";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=text] {
+  font-family: "Montserrat";
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+select {
+  font-family: "Montserrat";
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+textarea {
+  font-family: "Montserrat";
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label {
+  font-family: "Montserrat";
+  color: black;
+  font-weight: bold;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input.submit {
+  display: block;
+  width: 125px;
+  background: #225560;
+  color: #ffffff;
+  padding: 6px;
+  border: 0px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input.submit:hover {
+  background: #4CAF50;
+}
+input.submit:active {
+  background: #002626;
+}
+.contactform {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1000px) {
+  .column1 {
+    float: center;
+    width: 33%;
+    height: 600px;
+    font-size: 90%;
+  }
+  .column2 {
+    float: center;
+    width: 33%;
+    height: 600px;
+    font-size: 90%;
+  }
+  .column3 {
+    float: center;
+    width: 33%;
+    height: 600px;
+    font-size: 90%;
+  }
+  .topnav {
+    width: 100%;
+  }
+  .slottet {
+    width: 100%;
+  }
+  .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+  .maps {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .biking1 {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    font-size: 90%;
+  }
+  .column2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    font-size: 90%;
+  }
+  .column3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    font-size: 90%;
+  }
+  .slottet {
+    width: 100%;
+  }
+  .col-25 input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .navbar {
+    flex-direction: column;
+    display: none;
+  }
+  #toggle .navbar {
+    display: flex;
+  }
+  .togglearea {
+    display: flex;
+  }
+  .map1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    font-size: 70%;
+  }
+  .map2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    font-size: 70%;
+  }
+  .map3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    font-size: 70%;
+  }
+  .biking1 {
+    width: 100%;
+  }
+  .oslo1 {
+    width: 50%;
+  }
+  .bike1 {
+    width: 50%;
+  }
+  .earth {
+    width: 50%;
+  }
+}
